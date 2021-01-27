@@ -2,7 +2,7 @@
 Base de cores
 - Fundo: #420047
 - Links: #9000d1
-- Títulos: #1
+- Títulos: #a180a3;
 - Cabeçalhos: #00ff00
 - Chamadas: #e8ff00
 - SubColor: #aa00ff
@@ -34,7 +34,7 @@ ul li a{
     text-decoration: none;
     color:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 ul li a:hover{
     text-decoration: none;
@@ -48,11 +48,7 @@ ul li{
     display: inline;
     padding: 15px;
 }
-
-section{
-    
-}
-section input[type="text"]{
+section input[type="search"]{
     color:#420047;
     width: 60%;
     /* height: 40px; */
@@ -66,4 +62,36 @@ section input[type="text"]{
     background-position-x: right;
     background-repeat: no-repeat;
 }
-
+/* .conteudoPrincipal{
+    width: 95%;
+    margin: 0px auto;
+}
+.barraSecundaria{
+    width: 90%;
+    margin: 0px auto; 
+} */
+label{
+    display: block;
+}
+input[type="submit"]{
+    background-color:#12F300;
+    border:0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 70px;
+    font-weight: 900;
+    margin-top:20px;
+}
+input[type="reset"]{
+    background-color:#a180a3;
+    border:0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 70px;
+    font-weight: 900;
+    margin-top:20px;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}

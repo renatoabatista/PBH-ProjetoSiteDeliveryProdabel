@@ -7,12 +7,17 @@
     <meta name="description" content="Delivery Açaí">
     <meta name="keywords" content="Acai, açai, assai, asai, entrega-de-açai, delivery, entrega-rapida, prodabel,pbh">
     <title>Paçaí.Já - Delivery - Já pediu? Tá chegando! (Projeto Aula - PBH - Prodabel)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body style="background: #420047; color: white;">
     <header> <!--cabeçalho - menu e logomarca-->
         <h1>Paçaí.Já - Delivery @Trabalhe Conosco</h1>
         <nav>
-            <img src="../img/logo.png" alt="logo-paçaí.já Delivery" width="20%">
+            <img src="../img/logo.png" alt="logo-paçaí.já Delivery" width="200px">
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="contato.html">Contato</a></li>
@@ -31,20 +36,50 @@
 
     <main><!--conteúdo principal-->
         <section>
-           <article>
-                <p>Produto1</p>
-            </article>
-            <article>
-                <p>Produto2</p>
-            </article>
-            <article>
-                <p>Produto3</p>
-            </article>
-            <article>
-                <p>Produto4</p>
-            </article>
+            <form action="" method="">
+                <fieldset>
+                    <legend>Trabalhe conosco</legend>
+                    <label for="nomeCompleto">Nome completo:</label>
+                    <input type="text" id="nomeCompleto">
+        
+                    <label for="email">Email:</label>
+                    <input type="text" id="email">
+        
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone">
+        
+                    <label for="dataNascimento">Data Nascimento:</label>
+                    <input type="date" max="2020-12-31"> <!--Validar campo-->
+        
+                    <label>Sexo:</label>
+                    <input type="radio" id="masculino" name="genero" value="m" checked>Masculino
+                    <input type="radio" id="feminino" name="genero" value="f">Feminino
+        
+                    <label for="anexoCurriculo">Anexar currículo:</label>
+                    <input type="file" id="anexoCurriculo" accept=".pdf, .doc, .docx">
+
+                    <label for="disponibilidade">Local Desejado:</label>
+                    <select id="disponibilidade">
+                        <option value="InicioImediato">Início Imediato</option>
+                        <option value="Manha">Centro</option>
+                        <option value="Tarde">Venda Nova</option>
+                        <option value="Noite">Barreiro</option>
+                    </select>
+
+                    <legend for="disponibilidade">Disponibilidade:</legend>
+                    <input type="checkbox" value="tarde" name="tarde">Tarde
+                    <input type="checkbox" value="noite" name="tarde">Noite
+  
+                    <label for="resumo">Observação:</label>
+                    <textarea id="resumo" rows="10" cols="50"></textarea>
+                    <br>
+        
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+            </form>
         </section>
     </main><!--conteúdo principal-->
+
     <footer>
         <p>Mídias Sociais</p>
         <p>© 2021 Paçaí.Já - Todos os direitos reservados.</p>
