@@ -24,24 +24,23 @@ h1{
     font-family: 'Comfortaa', cursive;
 }
 ul{
-    
     padding:10px;
 }
-ul li a{
+.menuPrincipal ul li a{
     text-decoration: none;
     color:#0f0000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
-ul li a:hover{
+.menuPrincipal ul li a:hover{
     text-decoration: none;
     color:#9000d1;
     border-bottom:5px solid #3cff00;
 }
-ul li a:visited{
+.menuPrincipal ul li a:visited{
     text-decoration: none;
 }
-ul li{
+.menuPrincipal ul li{
     display: inline;
     padding: 15px;
 }
@@ -90,18 +89,25 @@ input[type="checkbox"]{
   color:white;
 }
 .menuTop ul li{
-    
+    display: inline;
 }
-
 .menuTop ul li a{
     background-color:#04f104;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
 }
 .menuTop ul li a:hover{
     text-decoration: none;
+    background-color:#e1f104;
+}
+.menuTop a{
+    text-decoration: none;
+    color:#0f0000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
 
 h3,h4{
@@ -119,7 +125,4 @@ h2{
 .status span{
     color:#e8ff00;
     font-weight: 900;
-}
-*{
-    border:1px solid red
 }

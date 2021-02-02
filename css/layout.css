@@ -13,7 +13,6 @@
 
 [class*="col-"] {
     float: left;
-    
 }
 .row::after {
   content: "";
@@ -21,7 +20,7 @@
   display: table;
 }
 .fundo{
-    background:#420047 url('../img/1.png') no-repeat ;
+    background:#420047 url('../img/1.png') no-repeat;
     background-position:top left;
     height: 400px;
 }
@@ -42,7 +41,6 @@
     text-align: end;
     padding-top: 20px;
     box-sizing: border-box;
-    
 }
 .status{
     text-align: end;
