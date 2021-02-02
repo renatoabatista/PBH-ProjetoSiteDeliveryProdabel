@@ -126,3 +126,19 @@ h2{
     color:#e8ff00;
     font-weight: 900;
 }
+.imgBoxRounded{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #f1f1f1;
+    margin-top: -25%;
+    box-shadow: 5px 5px #9000d1;
+}
+.imgBoxRounded:hover{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #e1f104;
+    margin-top: -25%;
+    box-shadow: 5px 5px #9000d1;
+}

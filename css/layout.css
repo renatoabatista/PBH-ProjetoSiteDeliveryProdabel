@@ -48,3 +48,18 @@
     align-items: end;
     margin-left:-20px;
 }
+@media only screen and (max-width:600px){
+    body{
+        background: pink;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* Celular: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+.subHeader {
+      color:black;
+      text-align: center;
+}
