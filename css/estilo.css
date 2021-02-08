@@ -10,8 +10,12 @@ Base de cores
 */
 body{
     /* background-color: #420047; */
-    color:white;
+    color:#fafafa;
     margin:0px;
+}
+::selection{
+    background-color: #420047;
+    color:white;
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -112,9 +116,13 @@ input[type="checkbox"]{
     font-size: 15px;
 }
 
-h3,h4{
+h3{
     color:#12F300;
     font-family: 'Comfortaa', cursive;
+}
+h4{
+    margin:0px;
+    color:#420047;
 }
 h2{
     color:#12F300;
@@ -152,4 +160,76 @@ h2{
 }
 .linhaAuxiliar{
     background-color: rgb(251, 255, 0);
+    color:black;
+}
+.box2{
+    background-color:#e7d8e7;
+    color:#420047;
+    padding: 10px;
+    margin:50px 30px 20px 50px;
+    height:270px;
+    width: 230px;
+    border-radius: 15px;
+    box-shadow: 10px 10px #a180a3;
+    display: inline-block;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.box1{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-color:#e7d8e7;
+    color:#420047;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #a180a3;
+}
+.boxheader{
+    background-color: #420047;
+    height: 50px;
+    margin-right:20px;
+    line-height: 50px;
+    color:white;
+}
+.boxdireita{
+    color:red;
+    background-color: #420047;
+}
+.boxinterna{
+    background-color: red;
+    color:white;
+}
+.barraFiltro{
+    background-color: rgb(230, 217, 217);
+    color: red;
+    border-radius: 10px;
+    margin:10px;
+    padding:15px;
+}
+.filtrosProdutosHorizontal ul li {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin:5px 7px;
+    padding: 10px;
+    color:black;
+    box-sizing: content-box;
+}
+.filtrosProdutosHorizontal ul {
+    margin-top:-20px;
+}
+.filtrosProdutosHorizontal ul li a{
+    text-decoration: none;
+}
+.filtrosProdutosHorizontal ul li img{
+    text-decoration: none;
+    line-height: 40px;
+    width: 20px;
+    margin-bottom: -5px;
+    margin-right:3px
+}
+.filtrosProdutosHorizontal{
+    
 }
