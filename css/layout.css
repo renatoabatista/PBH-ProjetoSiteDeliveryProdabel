@@ -29,7 +29,8 @@ html {
 .fundo{
     background:#420047 url('../img/1.png') no-repeat;
     background-position:top left;
-    height: 400px;
+    height: 500px;
+    
 }
 .menuStyle{
     margin-top: 50px;
@@ -40,9 +41,13 @@ html {
     border-radius: 10px;
     background-color: #f1efef;
     box-shadow: -5px 5px #9000d1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .logoStyle{
-   
+   width: 100%;
+   height: auto;
 }
 .barraPesquisa{
     text-align: end;

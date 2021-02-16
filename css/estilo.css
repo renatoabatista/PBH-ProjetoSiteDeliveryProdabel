@@ -123,6 +123,8 @@ h3{
 h4{
     margin:0px;
     color:#420047;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 h2{
     color:#12F300;
@@ -200,57 +202,63 @@ h2{
     background-color: red;
     color:white;
 }
-.barraFiltro{
-    background-color: rgb(230, 217, 217);
-    color: red;
-    border-radius: 10px;
-    margin: 15px;
-    padding:15px;
-}
 
 .box{
-    background-color: rgb(230, 217, 217);
-    color: red;
+    background-color: #e6d9d9;
     border-radius: 10px;
-    box-sizing: border-box;
     margin: 15px;
     padding:15px;
 }
-
+.boxFiltro{
+    background-color: #dee6d9;
+    border-radius: 10px;
+    margin: 15px;
+    background: #333333 url('../img/fundofiltro.jpg') top  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.filtrosProdutosHorizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .filtrosProdutosHorizontal ul li {
     display: inline-block;
     text-decoration: none;
     background-color: #ffffff;
     border-radius: 10px;
-    margin: 5px 2px;
     padding: 10px;
     color:black;
 }
+.filtrosProdutosHorizontal li{
+    margin: 5px;
+    display: flex;
+    min-width: 150px;
+}
 .filtrosProdutosHorizontal ul {
     margin:0px;
+    
 }
 .filtrosProdutosHorizontal ul li a{
     text-decoration: none;
+   
 }
 .filtrosProdutosHorizontal ul li img{
     text-decoration: none;
     line-height: 40px;
     width: 20px;
     margin-bottom: -5px;
-    margin-right:3px
+    margin-right:3px;
 }
 .b{
     border:1px solid red;
 }
 .boxProduto{
-    display: inline-block;
-    border-radius: 10px;
-   
-}
-.boxProduto{
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    color:#705172;
+    border-radius: 5px;
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    flex-wrap: wrap;
 }
 
 h5{
@@ -259,6 +267,58 @@ h5{
     font-size: 15px;
     color:#420047;
 }
-.tituloBox{
+.infoProdutos{
+    margin:5px;
+    color:white;
+    border-radius: 5px;
+    padding:5px;
+    min-width: 200px;
+    min-height: 120px;
+    color:#fafafa;
+    background-color: #a180a3;
+    
+}
+.infoProdutos img{
+    max-width: 195px;
+    border-radius: 10px;
+}
+.ajustIcon img{
+    width:  15px;
+    height: 15px;
+}
+.infoProdutos select {
+  background-color: #a180a3;
+  font-size: 15px;
+  border:0px;
+  color:white;
+}
+input[type="number"]{
+    background-color: #a180a3;
+    font-size: 15px;
+    border:0px;
+    color:white;
+    width: 32px;
+}
+.infoProdutos option{
+    background-color: #a180a3;
+    font-size: 13px;
+    color:black;
+    font-weight: 900;
+}
+.infoProdutos button{
+    margin: 5px;
+    padding:5px;
+    color:#e7d8e7;
+    background-color: #00ff00;
+    border: 0px;
+    display: block;
+    color: black;
+    width: 95%;
+}
+.margen-t-b{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+h4{
     
 }
