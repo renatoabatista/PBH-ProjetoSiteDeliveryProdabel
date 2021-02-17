@@ -30,7 +30,6 @@ html {
     background:#420047 url('../img/1.png') no-repeat;
     background-position:top left;
     height: 500px;
-    
 }
 .menuStyle{
     margin-top: 50px;
@@ -66,7 +65,6 @@ html {
     }
 }
 @media only screen and (max-width: 768px) {
-    /* Celular: */
     [class*="col-"] {
       width: 100%;
     }

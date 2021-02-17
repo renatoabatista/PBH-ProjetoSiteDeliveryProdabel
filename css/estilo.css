@@ -10,7 +10,7 @@ Base de cores
 */
 body{
     /* background-color: #420047; */
-    color:#fafafa;
+    color:#030000;
     margin:0px;
 }
 ::selection{
@@ -112,8 +112,9 @@ input[type="checkbox"]{
 .menuTop a{
     text-decoration: none;
     color:#0f0000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    padding:5px;
 }
 
 h3{
@@ -204,7 +205,7 @@ h2{
 }
 
 .box{
-    background-color: #e6d9d9;
+    background-color: #e6d9d9; 
     border-radius: 10px;
     margin: 15px;
     padding:15px;
@@ -273,31 +274,32 @@ h5{
     border-radius: 5px;
     padding:5px;
     min-width: 200px;
-    min-height: 120px;
+    min-height: 130px;
     color:#fafafa;
-    background-color: #a180a3;
-    
+    background-color: #c8bec9;
+    font-size: 15px;
 }
 .infoProdutos img{
-    max-width: 195px;
+    max-width: 190px;
+    min-width: 190px;
+    max-height: 130px;
     border-radius: 10px;
 }
-.ajustIcon img{
-    width:  15px;
-    height: 15px;
+.ajustIcon {
+    width:15px;
+    height:15px;
 }
 .infoProdutos select {
-  background-color: #a180a3;
+  background-color: #a72fad;
   font-size: 15px;
   border:0px;
   color:white;
 }
-input[type="number"]{
-    background-color: #a180a3;
+.carrinhoCompraBoxInfo input[type="number"]{
+    border:2px solid #a72fad;
     font-size: 15px;
-    border:0px;
-    color:white;
-    width: 32px;
+    color:#a72fad;
+    width: 40px;
 }
 .infoProdutos option{
     background-color: #a180a3;
@@ -319,6 +321,58 @@ input[type="number"]{
     margin-top: 3px;
     margin-bottom: 3px;
 }
-h4{
+.carrinhoCompraBox{
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+.carrinhoCompraBox img{
+    float: left;
+    min-width: 30%;
+    max-width: 30%;
+    border-radius: 10px;
+    margin:5px;
+}
+.carrinhoCompraBox p{
+    font-size: 14px;
+}
+.carrinhoCompraBox span{
+    font-size: 15px;
+    font-weight: 900;
     
+}
+.carrinhoCompraBox input[type="text"]{
+    width: 65px;
+}
+.carrinhoCompraBoxInfo{
+    padding:10px;
+}
+.carrinhoCompraBoxInfo select{
+    border:2px solid #a72fad;
+    font-size: 15px;
+    color:#a72fad;
+    margin:5px 0px;
+}
+.carrinhoCompraBoxInfo option{
+    border:2px solid #a72fad;
+    font-size: 15px;
+    color:#a72fad;
+    margin:5px;
+}
+.carrinhoCompraBoxInfo input{
+    border:2px solid #a72fad;
+    font-size: 15px;
+    color:#a72fad;
+}
+
+.carrinhoCompraBoxInfo button{
+    margin: 5px;
+    padding:10px;
+    color:#e7d8e7;
+    background-color: #00ff00;
+    border: 0px;
+    display: inline-block;
+    color: black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
 }
