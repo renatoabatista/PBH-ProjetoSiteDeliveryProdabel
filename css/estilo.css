@@ -12,10 +12,16 @@ body{
     /* background-color: #420047; */
     color:#030000;
     margin:0px;
+    
 }
 ::selection{
     background-color: #420047;
     color:white;
+}
+::placeholder{
+    color:#420047;
+    text-transform: uppercase;
+    text-align: center;
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -323,8 +329,10 @@ h5{
 }
 .carrinhoCompraBox{
     display: flex;
-    justify-content: start;
+    justify-content: stretch;
+    align-items: center;
     margin-top: 10px;
+    flex-wrap: wrap-reverse;
 }
 .carrinhoCompraBox img{
     float: left;
@@ -375,4 +383,45 @@ h5{
     color: black;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
+}
+.boxcupom{
+    margin-top:10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #a180a3;
+    border:2px solid #a180a3;
+    padding:10px;
+    border-radius: 7px;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boxcupom input{
+    background-color: #420047;
+    border:0px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    height: 30px;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 16px;  
+}
+.subtotal{
+    margin: 10px 0;
+    text-align: start;
+}
+hr{
+    border:1px solid #a180a3;
+    margin:5px 0;
+}
+.subtotal button{
+    background-color: #00ff00;
+    border: 0px;
+    border-radius: 40px;
+    padding:10px;
+    color:black;
+    width: 100%;
 }
