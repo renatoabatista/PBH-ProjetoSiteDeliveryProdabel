@@ -281,9 +281,15 @@ h5{
     padding:5px;
     min-width: 200px;
     min-height: 130px;
-    color:#fafafa;
+    color:#000000;
     background-color: #c8bec9;
     font-size: 15px;
+}
+.infoProdutos p{
+ border-left:4px solid #9000d1;
+ padding-left:5px;
+ margin-bottom: 5px;
+ box-shadow: 1px 1px #9000d1;
 }
 .infoProdutos img{
     max-width: 190px;
@@ -424,4 +430,5 @@ hr{
     padding:10px;
     color:black;
     width: 100%;
+    margin-top: 10px;
 }
