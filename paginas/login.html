@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="icon" href="../img/favicon.png" sizes="16x16" type="img/png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <script type="text/javascript" src="../JS/modulos/cupom.js"></script>
+    
     <header class="col-12 fundo fundoBorda">
+
         <div class="row"> 
             <div class="col-1 localizacao" style="text-align: start ;margin-left:40px" >Localização</div>
             <div class="col-10" style="text-align: end;">
@@ -64,7 +64,7 @@
             </div>
         </div> 
     </header>
-    
+
     <section >
         <div class="row subHeader ">
             <div class="col-2">
@@ -114,7 +114,7 @@
             
             <div class="box">
                 <h4>Produtos</h4>
-                <div class="boxProduto ">
+                <div class="boxProduto">
                     <div class="infoProdutos">
                         <div>
                             <p>Creme de açaí</p>
@@ -122,7 +122,6 @@
                             <button>Colocar no carrinho</button>
                         </div>
                     </div>
-
                     <div class="infoProdutos">
                         <div>
                             <p>Picole de açaí</p>
@@ -130,7 +129,6 @@
                             <button>Colocar no carrinho</button>
                         </div>
                     </div>
-                    
                     <div class="infoProdutos">
                         <div>
                             <p>Açaí com confeitos</p>
@@ -174,34 +172,9 @@
                         </div>
                     </div>
 
-                    <div class="infoProdutos ">
-                        <p>Açaí Light</p>
-                      <div class="card-flip">
-                        <div class="flip">
-                            <div class="front">
-                                <img src="../img/p2.jpg">
-                            </div>
-                            <div class="back">
-   
-                                <h4>R$ 25,90 un</h4>
-
-                                <span>Tamanho:</span>
-                                <select>
-                                    <option>200ml</option>
-                                    <option>500ml</option>
-                                    <option>800ml</option>
-                                </select>
-
-                                <label>Quantidade:</label>
-                                <input type="number" min="1" max="10">
-                                <button>Colocar no carrinho</button>
- 
-                            </div>
-                        </div>
-                      </div>
-                    </div>
                 </div>
             </div>
+
         </div>
     
         <div class="col-4">
@@ -234,8 +207,7 @@
                     <div class="boxcupom">
                        <div>
                             <span>Código cupom</span>
-                            <input type="text" id="cupom" >
-                            <input type="button" value="acao" onclick="ativarCupom()">
+                            <input type="text">
                        </div>
                     </div>
                 </div>
@@ -281,16 +253,37 @@
                         <button>Finalizar Pedido</button>
                     </div>
                 </section>
+
             </div>
+
+            <div>
+                
+            </div>
+
+            <div class="box">
+                <div class="row">
+                    <div class="col-6">
+                        
+                    </div>
+                    <div class="col-4">
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <p>Cupom de desconto</p>
+            </div>
+
+
         </div>
     </div>
-    <footer class="row">
-        <hr>
-        <div class="col-12">
-            <div class="boxfooter">
-                Renato Batista
-            </div>
-        </div>
-    </footer>
+
+    <div class="row">   
+        <div class="col-12" style="background-color: blue;">
+                Rodape
+        </div>  
+    </div>
 </body>
 </html>

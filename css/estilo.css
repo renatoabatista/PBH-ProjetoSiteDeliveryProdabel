@@ -63,7 +63,7 @@ input[type="search"]{
     border-radius: 20px;
     padding-left:10px;
     font-size: 20px;
-    background: url('../img/lupa2.png')rgb(0, 255, 0);
+    background: url('../img/lupa2.png')#00ff00;
     background-size: 50px;
     background-position-x: right;
     background-repeat: no-repeat;
@@ -171,29 +171,6 @@ h2{
     background-color: rgb(251, 255, 0);
     color:black;
 }
-.box2{
-    background-color:#e7d8e7;
-    color:#420047;
-    padding: 10px;
-    margin:50px 30px 20px 50px;
-    height:270px;
-    width: 230px;
-    border-radius: 15px;
-    box-shadow: 10px 10px #a180a3;
-    display: inline-block;
-    box-sizing: border-box;
-    justify-content: center;
-}
-.box1{
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    background-color:#e7d8e7;
-    color:#420047;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 10px 10px #a180a3;
-}
 .boxheader{
     background-color: #420047;
     height: 50px;
@@ -215,6 +192,7 @@ h2{
     border-radius: 10px;
     margin: 15px;
     padding:15px;
+    word-wrap: break-word;
 }
 .boxFiltro{
     background-color: #dee6d9;
@@ -280,7 +258,7 @@ h5{
     border-radius: 5px;
     padding:5px;
     min-width: 200px;
-    min-height: 130px;
+    min-height: 175px;
     color:#000000;
     background-color: #c8bec9;
     font-size: 15px;
@@ -353,7 +331,6 @@ h5{
 .carrinhoCompraBox span{
     font-size: 15px;
     font-weight: 900;
-    
 }
 .carrinhoCompraBox input[type="text"]{
     width: 65px;
@@ -431,4 +408,62 @@ hr{
     color:black;
     width: 100%;
     margin-top: 10px;
+}
+.boxfooter{
+    background-color: #a180a33d; 
+    border-radius: 10px;
+    margin: 10px;
+    padding:15px;
+    color:white;
+    justify-content: start;
+    align-items: center;
+    word-wrap: break-word;
+}
+.boxfooter ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+.boxfooter ul li a{
+    list-style: none;
+    margin:0px;
+}
+
+
+.card-flip{
+  background-color:red;
+}
+.flip{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.card-flip:hover .flip{
+    transform: rotateY(180deg);
+}
+.front, .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.back{
+  transform: rotateY(180deg);
+}
+
+.back input[type="number"]{
+    border:2px solid #a72fad;
+    font-size: 15px;
+    color:#a72fad;
+    width: inherit;
+}
+.back h4{
+   
+    font-size: 18px;
+}
+.back select, option{
+    width: 100%;
 }

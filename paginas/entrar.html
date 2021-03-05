@@ -1,56 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Renato Batista">
-    <meta name="description" content="Delivery Açaí">
-    <meta name="keywords" content="Acai, açai, assai, asai, entrega-de-açai, delivery, entrega-rapida, prodabel,pbh">
-    <title>Paçaí.Já - Delivery - Já pediu? Tá chegando! (Projeto Aula - PBH - Prodabel)</title>
-    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilo.css">
-</head>
-<body style="background: #420047; color: white;">
-    <header> <!--cabeçalho - menu e logomarca-->
-        <nav>
-            <img src="../img/logo.png" alt="logo-paçaí.já Delivery" width="200px">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="quemSomos.html">Quem Somos</a></li>
-                <li><a href="trabalheConosco.html">Trabalhe Conosco</a></li>
-                <li><a href="registrar.html">Registrar</a></li>
-                <li><a href="entrar.html">Entrar</a></li>
-            </ul>        
-        </nav><!--cabeçalho - menu e logomarca-->
-    </header>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/simplepage.css">
+    <title>Delivery - Paçaí.Já</title>
+    
+  </head>
+  <body>
+    
+    <div class="container-fluid  ">
+        <div class="row  ">
+            <div class="col-sm-12 fundomenu borda">
+                <header class="">
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+                        <div class="container-fluid  ">
+                          <a class="navbar-brand " href="#">
+                              <img class="img-fluid me-5" src="../img/logotransp.png" style="width: 200px;"></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Quem somos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Produtos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Registrar</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Entrar</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Trabalhe Conosco</a>
+                              </li>
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Digite um produto" aria-label="Search">
+                              <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+                </header>
+            </div>
+        </div>
+    </div>
 
-    <section>
-        <img src="../img/mascote.png" alt="Mascote-Paçaí.já" width="10%">
-        <input type="search" placeholder="O que vai querer hoje?">
-    </section>
+    <main>
+        <div class="container-fluid">
+            <div class="row m-5">
+                <div class="col-sm-5  ">
+                    <div class=" boxSimples">
+                     
+                        <div>
+                          <h5>Bem vindo, estamos quase lá!</h5>
+                          <small class="form-text text-muted">Faça o login para acessar a sua compra</small>
+                        </div>
 
-    <main><!--conteúdo principal-->
-        <section>
-            <form>
-                <label for="usuario">Usuário</label>
-                <input type="text" id="usuario">
+                        <form>
+                          <div class="form-group">
+                            <label>E-mail:</label>
+                            <div>
+                              <input class="form-control" type="text">
+                            </div>
 
-                <label for="senha">Senha</label>
-                <input type="password" id="senha">
-                <br>
+                            
+                            <div class="form-group">
+                              <label>Senha:</label>
+                              <input class="form-control" type="password">
+                              <div>
+                                <small class="form-text">Esqueceu a senha?</small>
+                              </div>
+                            </div>
 
-                <input type="submit" value="Login">
-                <input type="reset" value="Limpar">
-            </form>
-        </section>
-    </main><!--conteúdo principal-->
+                            <div class="form-group mb-3">
+                              <button class="btn btn-primary form-control" type="submit">Acessar</button>
+                            </div>
+                            <div class="form-group">
+                              <button class="btn btn-outline-danger form-control" type="reset">Limpar</button>
+                            </div>
+                          </div>
+                        </form>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-7 m-auto text-right">
+                    <div class=" text-end">
+                          <h1 class="">Falta pouco para matar sua fome!
+                            Como deseja continuar?</h1>
+                            <h3 class="">Digite os dados ao lado</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer>
-        <p>Mídias Sociais</p>
-        <p>© 2021 Paçaí.Já - Todos os direitos reservados.</p>
+      <div class="container-fluid mt-5">
+          <div class="row">
+              <div class="col-sm-12 fundomenu bordaTop"> 
+                <div>
+                  Renato Batista
+                </div>
+              </div>
+          </div>
+      </div>
     </footer>
-</body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
