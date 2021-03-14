@@ -415,23 +415,8 @@ hr{
     margin: 10px;
     padding:15px;
     color:white;
-    justify-content: start;
-    align-items: center;
     word-wrap: break-word;
-}
-.boxfooter ul{
-    list-style: none;
-    margin:0px;
-    padding:0px;
-}
-.boxfooter ul li a{
-    list-style: none;
-    margin:0px;
-}
-
-
-.card-flip{
-  background-color:red;
+    box-sizing: border-box;
 }
 .flip{
     width: 100%;
