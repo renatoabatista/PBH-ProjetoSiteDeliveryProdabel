@@ -168,7 +168,7 @@ h2{
     background-color: red;
 }
 .linhaAuxiliar{
-    background-color: rgb(251, 255, 0);
+    background-color: #fbff00;
     color:black;
 }
 .boxheader{
@@ -307,6 +307,7 @@ h5{
     color: black;
     width: 95%;
 }
+
 .margen-t-b{
     margin-top: 3px;
     margin-bottom: 3px;
@@ -367,6 +368,7 @@ h5{
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
 }
+
 .boxcupom{
     margin-top:10px;
     display: flex;
@@ -408,6 +410,59 @@ hr{
     color:black;
     width: 100%;
     margin-top: 10px;
+}
+.subtotal button{
+    background-color: #00ff00;
+    border: 0px;
+    border-radius: 40px;
+    padding:10px;
+    color:black;
+    width: 100%;
+    margin-top: 10px;
+}
+footer button{
+    background-color: #00ff00;
+    border: 0px;
+    border-radius: 40px;
+    padding:10px;
+    color:black;
+    width: 95%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+footer .buttonC{
+    background: transparent;
+    border:1px solid #fbff00;
+    border-radius: 40px;
+    padding:10px;
+    color:rgb(255, 255, 255);
+    width: 95%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+footer input{
+    background: #420047;
+    border:0px;
+    border-radius: 10px;
+    height: 30px;
+    width: 97%;
+    font-size: 17px;
+    color:white;
+}
+footer label{
+  margin: 10px 0px;
+  font-family: 'Comfortaa', cursive;
+}
+footer textarea{
+    resize:none;
+    background: #420047;
+    border:0px;
+    border-radius: 10px;
+    width: 99%;
+    font-size: 17px;
+    color:white;
 }
 .boxfooter{
     background-color: #a180a33d; 
