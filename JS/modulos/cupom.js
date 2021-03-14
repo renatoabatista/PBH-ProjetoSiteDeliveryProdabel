@@ -31,3 +31,4 @@ function ativarCupom(){
         }
     }
 }
+/* CRIAR UM MODAL INCIAL PARA MOSTRAR O CUPOM DE DESCONTO DO DIA */

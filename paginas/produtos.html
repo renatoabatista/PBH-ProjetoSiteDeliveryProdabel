@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="icon" href="../img/favicon.png" sizes="16x16" type="img/png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../JS/modulos/statusFuncionamento.js"></script>
 </head>
-<body>
+<body onload="statuServico()">
     <script type="text/javascript" src="../JS/modulos/cupom.js"></script>
     <header class="col-12 fundo fundoBorda">
         <div class="row"> 
@@ -59,8 +60,8 @@
       <div class="row ">
             <div class="col-12 status">
                 <h2>Status Serviços</h2>
-                <div class="row espacamento">Aberto: <span>Sim</span></div>
-                <div class="row espacamento">Entrega: <span>30-40 minutos</span></div>
+                <div class="row espacamento"><span id="statuServico"></span></div>
+                <div class="row espacamento">Na fila:<span>32 pedidos</span></div>
             </div>
         </div> 
     </header>
