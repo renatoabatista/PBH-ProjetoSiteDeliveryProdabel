@@ -16,8 +16,10 @@
     <link rel="icon" href="../img/favicon.png" sizes="16x16" type="img/png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../JS/modulos/statusFuncionamento.js"></script>
+    <script src="../JS/modulos/receitaDoDia.js"></script>
+    
 </head>
-<body onload="statuServico()">
+<body onload="statuServico(), mostrarReceitadoDia()">
     <script type="text/javascript" src="../JS/modulos/cupom.js"></script>
     <header class="col-12 fundo fundoBorda">
         <div class="row"> 
@@ -339,9 +341,10 @@
     
         <div class="col-4">
             <div class="box">
+                <h4>Carrinho de compra</h4>
                 <div>
                     <div>
-                        <h4>Carrinho de compra</h4>
+                        <!-- <h4>Carrinho de compra</h4> -->
                         <section class="carrinhoCompraBox">
                             <img src="../img/p1.jpg" style="float: left;">
                             <div class="carrinhoCompraBoxInfo">
@@ -363,6 +366,7 @@
                             </div>
                         </section>
                     </div>
+                    
 
                     <div class="boxcupom">
                        <div>
@@ -374,36 +378,36 @@
 
                 <section class="subtotal">
                     <div class="row">
-                        <div class="col-10 ">
-                            <p>Sub Total:</p>
+                        <div class="col-9 ">
+                            <p class="">Sub Total:</p>
                         </div>
-                        <div class="col-2 ">
-                            <div>
+                        <div class="col-3 ">
+                            <div class="subtotalItem">
                                 <p>-</p>
                             </div>
                         </div>
-                        <div class="col-10 ">
+                        <div class="col-9 ">
                             <p>Taxa de entrega:</p>
                         </div>
-                        <div class="col-2 ">
-                            <div>
+                        <div class="col-3">
+                            <div class="subtotalItem">
                                 <p>SIM</p>
                             </div>
                         </div>
-                        <div class="col-10 ">
+                        <div class="col-9 ">
                             <p>Cupom:</p>
                         </div>
-                        <div class="col-2 ">
-                            <div>
-                                <p>-</p>
+                        <div class="col-3">
+                            <div class="subtotalItem">
+                                <p id="valorCupomAplicado">-</p>
                             </div>
                         </div>
                         <hr>
-                        <div class="col-10 ">
+                        <div class="col-9 ">
                             <p>Total:</p>
                         </div>
-                        <div class="col-2 ">
-                            <div>
+                        <div class="col-3 ">
+                            <div class="subtotalItem">
                                 <p>-</p>
                             </div>
                         </div>
@@ -418,50 +422,92 @@
     </div>
     <footer class="row">
         <div class="col-12">
-            <div class="col-3">
+           
+            <div class="col-3 ">
                 <div class="boxfooter">
-                 Instagram  
-                 galeria de 4x4
+                    <p>RECEITA DO DIA</p>
+                    <div class="row">
+                        <hr>
+                        <span id="receita">Titulo</span>
+                        <div>
+                            <span id="receita">Descrição receita</span>
+                        </div>
+                        <div>
+                            <span id="receita">Link</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-3">
+            
+            
+            <div class="col-3 ">
                 <div class="boxfooter">
-                 Links  
+                 <p>LINKS</p>
+                 <ul>
+                     <li>Página Inicial</li>
+                     <li>Produtos</li>
+                     <li>Pedidos</li>
+                     <li>Promoções</li>
+                     <li>Plataforma de afiliados</li>
+                 </ul>
                 </div>
-            </div>
 
-            <div class="col-6">
+                <div class="col-12 ">
+                    <div class="boxfooter">
+                     <p>MÍDIAS SOCIAIS</p>
+                        <div class="footerMidias">
+                            <ul>
+                               <div>
+                                <li><a><img src="../img/instagram.png" style="width: 15%;"></a></li>
+                                <li><a><img src="../img/twitter.png" style="width: 15%;"></a></li>
+                                <li><a><img src="../img/youtube.png" style="width: 15%;"></a></li>
+                                <li><a><img src="../img/whatsapp.png" style="width: 15%;"></a></li>
+                                <li><a><img src="../img/github.png" style="width: 15%;"></a></li>
+                               </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-6 ">
+                
                 <div class="boxfooter">
                     <div class="row">
-                        Fale Conosco
+                        <p>FALE CONOSCO</p>
                         <form>
                             <div class="col-6 ">
                                 <label>Nome completo:</label>
-                                <input>
+                                <input type="text">
                             </div>
                             <div class="col-6 ">
                                 <label>Email:</label>
-                                <input>
+                                <input type="email">
                             </div>
                             <div class="col-12 ">
                                 <label>Mensagem:</label>
                                 <textarea cols="50" rows="6" maxlength="300"></textarea>
                                 
                                 <div class="col-6 ">
-                                    <button>Enviar</button>
+                                    <button type="submit">Enviar</button>
                                 </div>
 
                                 <div class="col-6 ">
                                     <button class="buttonC" type="reset">Limpar</button>
                                 </div>
                             </div>
-                            
                         </form>
                     </div>  
                 </div>
+   
             </div>
 
-        </div>            
-    </footer>
+        </div>
+
+
+    </footer> 
+
+
 </body>
 </html>

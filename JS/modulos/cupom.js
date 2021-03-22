@@ -27,6 +27,7 @@ function ativarCupom(){
             }
             document.getElementById('cupom').value = `Ganhou R$ ${valorCupom.toFixed(2).replace('.',',')}`
             document.getElementById('cupom').disabled = true 
+            document.getElementById('valorCupomAplicado').innerHTML = `R$ ${valorCupom.toFixed(2).replace('.',',')}`
             return valorCupom;
         }
     }
