@@ -17,7 +17,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../JS/modulos/statusFuncionamento.js"></script>
     <script src="../JS/modulos/receitaDoDia.js"></script>
-    <script src="../JS/modulos/calculoProduto.js"></script>
     
 </head>
 <body onload="statuServico(), mostrarReceitadoDia()">
@@ -129,16 +128,20 @@
                                 <img src="../img/p1.jpg">
                             </div>
                             <div class="back">
-                                <h4 id="P1">R$ 25,90 un</h4>
+   
+                                <h4>R$ 25,90 un</h4>
+
                                 <span>Tamanho:</span>
-                                <select id="tamanhoProduto" onchange="calcularTamanhoPreco()">
-                                    <option value="200">200ml</option>
-                                    <option value="500">500ml</option>
-                                    <option value="800">800ml</option>
+                                <select>
+                                    <option>200ml</option>
+                                    <option>500ml</option>
+                                    <option>800ml</option>
                                 </select>
+
                                 <label>Quantidade:</label>
-                                <input id="qtdProduto" type="number" min="1" max="10">
-                                <button id="addCarrinho" onclick="preCarrinho()">Colocar no carrinho</button>
+                                <input type="number" min="1" max="10">
+                                <button>Colocar no carrinho</button>
+ 
                             </div>
                         </div>
                       </div>
